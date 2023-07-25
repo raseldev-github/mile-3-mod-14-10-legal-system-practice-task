@@ -4,8 +4,81 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tea landing page with daisy UI</title>
+    <!-- google font links -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+            <!-- font-awesome-cdn link-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+               <!-- tailwind css and daisy UI link -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@3.4.0/dist/full.css" rel="stylesheet" type="text/css" />
+<script src="https://cdn.tailwindcss.com"></script>
+ <style>
+    .font-garamond{
+        font-family: 'EB Garamond', serif;
+    }
+    .btn-secondary{
+           
+    }
+ </style>
 </head>
-<body>
-    
+<body class="font-family: 'EB Garamond', serif; bg-white">
+        <!-- header section -->
+    <header class="container mx-auto">
+           <!-- nav bar -->
+        <nav class="pt-4">
+            <div class="flex justify-around items-center ">
+                <div>
+                   <img class="w-48" src="./images/logo2.png" alt="">
+                </div>
+                  <div class="flex gap-8 items-center justify-evenly list-none">
+                        <div class="flex justify-center items-center">
+                            <li>Home</li>
+                        </div>
+                       <div class="flex justify-center items-center">
+                        <li>Services</li>
+                        <i class="fa-solid fa-chevron-right"></i>
+                       </div>
+                        <div class="flex justify-center items-center">
+                            <li>Cases</li>
+                            <i class="fa-solid fa-chevron-right"></i>
+                        </div>
+                        <div class="flex justify-center items-center">
+                            <li>Blog</li>
+                            <i class="fa-solid fa-chevron-right"></i>
+                        </div>
+                        <div class="flex justify-center items-center">
+                            <li>Contact.Us</li>
+                            <i class="fa-solid fa-chevron-right"></i>
+                        </div>
+                  </div>
+                <div>
+                  <button><a class="btn text-base border-none text-sm text-[#FFF] bg-[#B68C5A]">Free Consultation</a></button>
+                </div>
+              </div>
+        </nav>
+              <!-- banner-section -->
+        <section class="my-24">
+                <div class="relative">
+                    <img class="width-[100%] mx-auto relative" src="./images/banner.png">
+                </div>
+            <div class="text-center w-[100%] mx-auto space-y-8 absolute -mt-96 -ml-4">
+             
+                <h1 class="text-5xl font-extrabold text-white">We Provide Effective <br> Legal Solutions</h1>
+                <p class="text-base w-[50%] mx-auto font-normal text-[#E7E7E7] ">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
+                <div class="text-[#A0A0A0] flex flex-row items-start justify-center gap-4">
+                    <input class="w-[500px] h-[59px] rounded-lg p-5 bg-slate-50 border-none" type="text" placeholder="Search Your Services ">
+                    <input class="btn text-base text-sm  text-[#FFF] bg-[#B68C5A]" type="button" value="Search">
+                </div>
+            </div>
+        </section>
+    </header>
+
+                
+    <main class="container mx-auto">
+
+    </main>
+    <footer></footer>
+
 </body>
 </html>
